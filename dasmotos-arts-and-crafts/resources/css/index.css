@@ -1,0 +1,31 @@
+body {
+    font-family: Helvetica;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.header {
+    background-image: url(../images/pattern.webp);
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    /* margin: 0; */
+    width: 100%;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    object-position: top;
+}
+
+#brushes-title {
+    background-color: mediumspringgreen;
+}
+#frames-title {
+    background-color: lightcoral;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}

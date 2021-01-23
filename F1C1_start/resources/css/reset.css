@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #4a4a4a;
+  font-size: 16px;
+  font-family: Roboto;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  background-color: lightgrey;
+}
+
+header .content  {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.desktop {
+  width: 450px;
+  align-items: center;
+  display: flex;
+}
+
+.desktop.logo {
+  font-size: 22px;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop ul {
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.desktop ul li a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  height: 30px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.banner {
+  display: inline-block;
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  color: white;
+  background-color: #9dc20a;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  width: 568px;
+  text-align: center;
+}
+
+.cursive {
+  color: white;
+  font-size: 40px;
+  font-family: Rubik;
+  font-style: italic;
+  margin-top: 32px;
+}
+
+.striking {
+  font-size: 50px;
+  font-family: Rubik;
+  line-height: 1.4;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.email div {
+  margin: 0 90px;
+} 
+
+.email * {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  line-height: 1.4;
+}
+
+.email {
+  display: flexbox;
+  justify-content: center;
+}
+
+.email .button {
+  background-color: #4a4a4a;
+  width: 408px;
+  height: 64px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: left;
+  margin: 26px 80px 56px 80px;
+}
+
+#features-section {
+  display: flex;
+  width: 100%;
+  background-color: lightgrey;
+  justify-content: center;
+}
+
+.feature {
+  height: 635px;
+  width: 640px;
+  background-color: white;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin: 64px 19px 46px 19px;
+}
+
+.center {
+  text-align: center;
+}
+
+.feature * img {
+  height: 65%;
+  width: 90%;
+  margin: 32px 32px 40px 32px;
+}
+
+.content h2 {
+  color: #4a4a4a;
+  font-size: 36px;
+  font-family: Roboto;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.content h3 {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 1.2;
+  padding: 20px 90px;
+}
+
+#filters-section * {
+  background-color: #4a4a4a;
+}
+
+#filters-section {
+  padding-bottom: 64px;
+  background-color: #4a4a4a;
+}
+
+.content-center {
+  padding: 64px 0 80px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.content-center * {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 20px 100px;
+}
+
+.content-center h2 {
+  font-size: 36px;
+}
+
+.images-container {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+#filters-section * .image-container {
+  width: 24.5%;
+  height: auto;
+}
+
+#filters-section * img {
+  width:100%;
+}
+
+@media only screen and (max-device-width: 760px) {
+  .mobile {
+    display: flex;
+  }
+  .desktop {
+    display: none;
+  }
+}
