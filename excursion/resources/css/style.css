@@ -11,7 +11,8 @@ body {
     text-align: center;
 }
 
-header {
+header p {
+    color: white;
     font-size: 50px;
     text-align: center;
 }
