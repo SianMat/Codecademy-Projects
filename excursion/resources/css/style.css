@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -10,14 +12,35 @@ body {
 }
 
 header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: white;
     text-align: center;
 }
 
-header a {
+a {
     color: aquamarine;
     font-size: 16px;
     text-decoration: underline;
+    margin: 20px auto;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 42px;
+    margin: 30px auto;
+}
+
+p {
+    font-size: 21px;
+    color: grey;
+    margin: 20px auto;
+}
+
+img {
+    margin: 20px auto;
+}
+
+footer {
+    text-align: right;
+    color: grey;
+    margin: 20px 10px;
 }
